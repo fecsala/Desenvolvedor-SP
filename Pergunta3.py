@@ -10,12 +10,12 @@ b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Est
 """
 
 import json
+import math
  
 with open('dados.json', encoding='utf-8') as j:
     dados = json.load(j)
-    
-for i in dados:
-    print (i['dia'], i['valor'])
-    
-#print(dados)
-    
+listadados = []
+
+  
+print(dados)
+ 
